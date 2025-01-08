@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OneSignal Demo</title>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+		window.OneSignal = window.OneSignal || [];
+		OneSignal.push(function() {
+			OneSignal.init({
+				appId: "YOUR-ONESIGNAL-APP-ID",
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Welcome to OneSignal Demo</h1>
+	<p>This is a simple HTML page with OneSignal integration.</p>
+</body>
+
+</html>
