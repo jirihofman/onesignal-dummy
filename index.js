@@ -9,6 +9,6 @@ OneSignal.push(function() {
 			size: "small",
 			position: "bottom-left",
 		},
-		allowLocalhostAsSecureOrigin: true,
+		// allowLocalhostAsSecureOrigin: true,
 	});
 });
