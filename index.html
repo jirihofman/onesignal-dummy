@@ -1,24 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>OneSignal Demo</title>
-	<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-	<script>
-		window.OneSignalDeferred = window.OneSignalDeferred || [];
-		OneSignalDeferred.push(async function(OneSignal) {
-			await OneSignal.init({
-				appId: "0342e64e-0fc1-4e5a-b1b4-1b57c78e7024"
-			});
-		});
-	</script>
+	<title>OneSignal Push</title>
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 </head>
 
 <body>
-	<h1>Welcome to OneSignal Demo</h1>
-	<p>This is a simple HTML page with OneSignal integration.</p>
+	<h1>How To Add Push Notifications Into Your Website</h1>
+	<p>
+		Based on: https://github.com/OneSignalDevelopers/OneSignal-PushNotification-JavaScript-Sample
+	</p>
 </body>
+<script src="./index.js"></script>
 
 </html>
